@@ -5436,6 +5436,10 @@ PrefabInstance:
       propertyPath: m_SizeDelta.y
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5914796167149857569, guid: a309f75923c668e43ab2bcc7dca26335, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 7710165815832450222, guid: a309f75923c668e43ab2bcc7dca26335, type: 3}
       propertyPath: m_AnchorMax.x
       value: 0
@@ -16883,6 +16887,7 @@ MonoBehaviour:
   saveInputField: {fileID: 1679515828}
   saveButton: {fileID: 442509125}
   showLoadListButton: {fileID: 144439723}
+  testButton: {fileID: 0}
   loadListParent: {fileID: 801632580}
   loadButtonPrefab: {fileID: 626063511161551275, guid: fbe6defe295c2864b9d9a7b146b25ccb, type: 3}
   messageText: {fileID: 795703662}
