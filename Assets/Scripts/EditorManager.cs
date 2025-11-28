@@ -151,6 +151,7 @@ public class EditorManager : MonoBehaviour
             if (Input.GetMouseButtonDown(0))
             {
                 clickPressedTime = 0;
+                currentRotation = previewObject.transform.rotation;
                 if (currentBlock && canPlace)
                     PlaceBlock(placementPos, currentRotation);
             }
